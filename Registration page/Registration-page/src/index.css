@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.registration-form {
+  max-width: 780px;
+  margin: 0 auto;
+  /* padding: 20px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  padding: 20px;
+}
+
+.heading {
+  margin: 0;
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  padding-left: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 30px;
+  background-color: #9b9b9b;
+  color: white;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+/* Top row with Email */
+.top-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #337ab7;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9b9b9b;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form_row_elements {
+  width: 350px;
+}
+
+.top-row .form-group {
+  width: 100%;
+}
+
+/* Two columns for First Name and Last Name */
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.two-columns .form-group {
+  width: 48%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.error-container {
+  height: 1.5em;
+  /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  margin-left: 5px;
+  /* Add some margin to separate it from the input field */
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button[type="submit"] {
+  width: 120px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  color: #337ab7;
+  border: 1px solid #337ab7;
+  background-color: white;
+}
+
+.password_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye_symbol {
+  margin-left: -1.5rem;
+  margin-bottom: 1rem;
+  pointer-events: visible;
+}
